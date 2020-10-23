@@ -47,16 +47,6 @@ $(document).ready(function(){
 
     });
 
-    // ABRIR MENU
-    const btn_menu = document.getElementById('btn_menu')
-    if(btn_menu){
-        btn_menu.addEventListener('click', () => {
-            const menu_items = document.getElementById('menu_items')
-            menu_items.classList.toggle('show');
-        })
-    }
-
-
     let altura = $('.menu').offset().top;
     $(window).on('scroll', function(){
         if($(window).scrollTop() > altura){
@@ -64,7 +54,23 @@ $(document).ready(function(){
         }else{
             $('.menu').removeClass('menu-fixed');
         }
-    })
+    });
+
+    // ABRIR MENU
+    let Contador = 1;
+    $('#btn_menu').click(function(){
+        if(Contador == 1){
+            $('ul').animate({
+                left: '0'
+            });
+            Contador = 0;
+        }else{
+            Contador = 1;
+            $('ul').animate({
+                left: '-100%'
+            });
+        }
+    });
 
     cerrar();
 
