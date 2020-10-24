@@ -628,6 +628,8 @@ footer .redes-footer .fa-instagram:hover{
 /* FIN DEL FOOTER */
 
 
+
+
 /* DISENO RESPONSIVE*/ 
 
 @media (max-width: 1366px){
@@ -665,6 +667,7 @@ footer .redes-footer .fa-instagram:hover{
     background: #000;
     flex-direction: column;
     top: 75px;
+    left: -100px;
   }
 
   .menu ul li{

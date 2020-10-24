@@ -14,6 +14,42 @@
     <link rel="icon" href="img/cartas.ico">
 </head>
 <body>
+
+    <!-- INICIO BOTON DE WHATSAPP -->
+    <link rel="stylesheet" href="CSS/whats.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/whats2.css">
+    <div class="nav-bottom">
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                      <i class="material-icons icon-font-color">close</i>
+                    </button> 
+                  
+                   <p>  <img src="img/cartas.png" width="50">  Hola, ¿en que podemos ayudarle? </p>
+                   
+                </div>
+                <div class="content-whatsapp -bottom">
+                  <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                   
+                   
+                  
+          
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float" >
+                    <i class="fab fa-whatsapp my-float"></i></div>
+            </button>
+            <div class="circle-anime"></div>
+    </div>
+    <!-- INICIO BOTON DE WHATSAPP -->
+
     <!-- INICIO HEADER -->
         <header class="cabecera" id="Inicio">
             <nav class="menu">
@@ -212,6 +248,7 @@
     </div>
     <!-- FIN DEL PIE DE PAGINA -->
 
+    <script  src="JS/script2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
 </body>
 </html>
