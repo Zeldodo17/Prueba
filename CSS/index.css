@@ -654,6 +654,35 @@ footer .redes-footer .fa-instagram:hover{
 
 }
 
+@media (max-width: 800px){
+  .Logo{
+    font-size: 25px;
+  }
+
+  .menu ul{
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    background: #000;
+    flex-direction: column;
+    top: 75px;
+  }
+
+  .menu ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+  }
+
+  .btn-menu{
+    display: block;
+  }
+
+  .contact_info{
+    width: 50%;
+  }
+
+}
+
 @media (max-width: 780px){
 
   .Logo{
@@ -667,7 +696,6 @@ footer .redes-footer .fa-instagram:hover{
     background: #000;
     flex-direction: column;
     top: 75px;
-    left: -100px;
   }
 
   .menu ul li{
@@ -750,6 +778,12 @@ footer .redes-footer .fa-instagram:hover{
     width: 70%;
   }
 
+}
+
+@media (max-width: 600px){
+  .contact_info{
+    height: 50%;
+  }
 }
 
 @media (max-width: 480px){
